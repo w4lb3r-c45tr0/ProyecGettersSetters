@@ -9,7 +9,9 @@ package Proyect;
 	private String direccion; 
 	private String sexo; //TODO volver enum 
 	private String estado;  //TODO volver enu 
-	;
+	
+	
+	
 	public void Persona(int id, String nombre, String apellido, int edad, String direccion, String sexo, String estado) {
 	
 		this.id = id;
@@ -64,8 +66,8 @@ package Proyect;
 
 	public void setEdad(int edad) {
 		this.edad = edad;
-		  if (edad < 0) {
-		        System.out.println("Edad inválida");
+		  if (edad <= 0) {
+		        System.out.println(" !! Edad inválida !! ");
 		        this.edad = 0;
 		    } else {
 		        this.edad = edad;
