@@ -18,7 +18,7 @@ public Producto(String codigo, String nombre, double precio, int stock) {
 	}
 
 public void DespuesVenta() {
-	System.out.println("=== Después de las ventas, en stock quedo: " + stock + " === ");
+	System.out.println("=== Después de las ventas, en stock quedo: " + stock + " Laptos === ");
 }
 
 //getters and setters

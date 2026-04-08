@@ -3,7 +3,7 @@ package Proyect;
 public class main {
 
 	public static void main(String[] args) {
-		
+		// Persona
 		System.out.println("\n=== PERSONA ===");
 
         Persona p = new Persona();
@@ -17,7 +17,7 @@ public class main {
 
         p.mostrar();
 		
-        
+        //Producto
 		  System.out.println("\n=== PRODUCTO ===");
 
         Producto P = new Producto("001", "Laptop", 5000.00, 30);
@@ -28,8 +28,18 @@ public class main {
 	
        P.DespuesVenta();
 
-		
+		//Cuenta Bancaria
+       System.out.println("\n=== CUENTA BANCARIA ===");
+       
+       CuentaBancaria B = new CuentaBancaria("Walber Castro", 5000.00, 3465);
+       
+      
+       B.retirar(2500, 3465);
+       B.retirar(400, 365);
+       B.retirar(2600, 3465);
+       B.retirar(2000, 3465);
         
+     
 	}
 	   
 	   
