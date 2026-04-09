@@ -53,6 +53,12 @@ public class main {
       Estudiante e = new Estudiante("001", "Juan", 95);
       System.out.println("Becado: " + e.esBecado());
        
+      
+      // TERMOMETRO
+      System.out.println("\n=== TERMOMETRO ===");
+      Termometro t = new Termometro();
+      t.setCelsius(25);
+      System.out.println("Fahrenheit: " + t.getFahrenheit());
 	}
 	   
 	   
