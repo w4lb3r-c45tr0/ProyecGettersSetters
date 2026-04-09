@@ -39,7 +39,15 @@ public class main {
        B.retirar(2600, 3465);
        B.retirar(2000, 3465);
         
-     
+       
+       //Curso y calificaciones
+       System.out.println("\n=== Curso y calificaciones ===");
+       
+       Curso C = new Curso("Programación", 75, 65, 80 );
+       
+      C.promedio();
+      C.estado();
+       
 	}
 	   
 	   
