@@ -73,6 +73,14 @@ public class main {
       Contacto c = new Contacto("Ana", "12345678", "ana@gmail.com");
       c.mostrarContacto();
       
+   // JUGADOR
+      System.out.println("\n=== JUGADOR ===");
+
+      Jugador J = new Jugador("Carlos", 200, 1000);
+
+      J.actualizarPuntaje(1100);
+      J.mostrar();
+     
 	}
 	   
 
