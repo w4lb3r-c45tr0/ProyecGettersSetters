@@ -59,8 +59,17 @@ public class main {
       Termometro t = new Termometro();
       t.setCelsius(25);
       System.out.println("Fahrenheit: " + t.getFahrenheit());
+      
+      
+      // RELOJ
+      System.out.println("\n=== RELOJ ===");
+      Reloj r = new Reloj();
+      r.setHora(14);
+      r.setMinuto(30);
+      r.setSegundo(15);
+      System.out.println(r.mostrarHora());
 	}
 	   
-	   
+
 
 }
