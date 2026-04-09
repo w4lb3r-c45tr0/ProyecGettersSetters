@@ -28,6 +28,7 @@ public class Curso {
 	        System.out.println("Aprobado");
 	       
 	    } else {
+	    	System.out.println("Su promedio es: " + resultado);
 	        System.out.println("Reprobado");
 	    }
 	}

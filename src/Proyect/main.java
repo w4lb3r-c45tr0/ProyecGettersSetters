@@ -43,10 +43,15 @@ public class main {
        //Curso y calificaciones
        System.out.println("\n=== Curso y calificaciones ===");
        
-       Curso C = new Curso("Programación", 75, 65, 80 );
+       Curso C = new Curso("Programación", 50, 55, 60 );
        
       C.promedio();
       C.estado();
+      
+       // ESTUDIANTE
+      System.out.println("\n=== ESTUDIANTE ===");
+      Estudiante e = new Estudiante("001", "Juan", 95);
+      System.out.println("Becado: " + e.esBecado());
        
 	}
 	   
