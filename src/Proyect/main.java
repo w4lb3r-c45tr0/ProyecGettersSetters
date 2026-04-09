@@ -80,6 +80,11 @@ public class main {
 
       J.actualizarPuntaje(1100);
       J.mostrar();
+      
+      // FACTURA
+      System.out.println("\n=== FACTURA ===");
+      Factura f = new Factura("F01", "Laptop", 2, 5000);
+      f.mostrarFactura();
      
 	}
 	   
