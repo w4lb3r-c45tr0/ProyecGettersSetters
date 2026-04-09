@@ -63,13 +63,17 @@ public class main {
       
       // RELOJ
       System.out.println("\n=== RELOJ ===");
-      Reloj r = new Reloj();
-      r.setHora(14);
-      r.setMinuto(30);
-      r.setSegundo(15);
+      Reloj r = new Reloj(14, 30, 15);
+      
       System.out.println(r.mostrarHora());
+      
+      
+      // CONTACTO
+      System.out.println("\n=== CONTACTO ===");
+      Contacto c = new Contacto("Ana", "12345678", "ana@gmail.com");
+      c.mostrarContacto();
+      
 	}
 	   
-
 
 }
